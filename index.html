@@ -1,18 +1,95 @@
 <!DOCTYPE html>
 <html lang="ja">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>濱田英樹のポートフォリオ</title>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>濱田英樹｜ポートフォリオ</title>
+  <meta name="description" content="清風情報工科学院 システム科 講師・濱田英樹のポートフォリオサイトです。">
+  <link rel="stylesheet" href="css/style.css">
 </head>
 <body>
-    <h1>濱田英樹</h1>
-    <p>清風情報工科学院のシステム科の講師をしています</p>
 
-    <h2>このサイトについて</h2>
-    <ul>
-        <li><a href="about.html">自己紹介</a></li>
-        <li><a href="works.html">作品</a></li>
-    </ul>
+  <header class="site-header">
+    <div class="wrap site-header__inner">
+      <a class="logo" href="index.html">濱田英樹</a>
+      <nav class="nav">
+        <a href="index.html" aria-current="page">Home</a>
+        <a href="about.html">About</a>
+        <a href="works.html">Works</a>
+      </nav>
+    </div>
+  </header>
+
+  <main>
+
+    <!-- ==================== ヒーロー ==================== -->
+    <section class="hero">
+      <div class="wrap hero__grid">
+
+        <div class="rise">
+          <p class="eyebrow">Portfolio</p>
+          <h1 class="hero__name">濱田 英樹</h1>
+          <p class="hero__romaji">Hideki Hamada</p>
+          <p class="hero__role">清風情報工科学院　システム科 講師</p>
+          <!-- ▼ ここは自分の言葉に書き換えてください -->
+          <p class="hero__lead">
+            システム開発とプログラミング教育について、日々考えていることと
+            手を動かした記録を置いている場所です。
+          </p>
+        </div>
+
+        <figure class="hero__figure rise rise--2">
+          <div class="hero__frame">
+            <img src="images/Image1.jpg" alt="鉛筆で描かれた濱田英樹の似顔絵スケッチ">
+          </div>
+          <figcaption class="hero__caption">Sketch — pencil on paper</figcaption>
+        </figure>
+
+      </div>
+    </section>
+
+    <!-- ==================== 導線 ==================== -->
+    <section class="contents">
+      <div class="wrap rise rise--3">
+        <p class="eyebrow">Contents</p>
+        <h2 class="section-title">このサイトについて</h2>
+
+        <div class="card-grid">
+
+          <a class="card" href="about.html">
+            <span class="card__no">01</span>
+            <h3 class="card__title">自己紹介</h3>
+            <span class="card__en">About</span>
+            <p class="card__text">
+              これまで何をしてきたか、いま何に興味があるか。
+              使ったことのある技術もまとめています。
+            </p>
+            <span class="card__more">読む</span>
+          </a>
+
+          <a class="card" href="works.html">
+            <span class="card__no">02</span>
+            <h3 class="card__title">作品</h3>
+            <span class="card__en">Works</span>
+            <p class="card__text">
+              授業や個人でつくったものの記録です。
+              制作例の画像も載せています。
+            </p>
+            <span class="card__more">見る</span>
+          </a>
+
+        </div>
+      </div>
+    </section>
+
+  </main>
+
+  <footer class="site-footer">
+    <div class="wrap site-footer__inner">
+      <span>濱田英樹　Hideki Hamada</span>
+      <span>&copy; 2026 Hideki Hamada</span>
+    </div>
+  </footer>
+
 </body>
 </html>
